@@ -292,18 +292,22 @@ span{
 @media (max-width: 500px) {
 
     .mini-container{
-        height: 300px;
+        gap: 10px;
+        height: 250px;
+    }
+    .mini-container p{
+        font-size: 20px;
     }
 
     .corazon{
         position: absolute;
         bottom: 10%;
-        left: -35px;
+        left: -30px;
     
         transform: rotate(-0deg);
     
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
     }
 
     .nombre_container{
