@@ -36,6 +36,17 @@ resaltado[1].addEventListener("click", ()=>{
     </div>`;
 });
 
+resaltado[2].addEventListener("click", ()=>{
+
+    darklayer.classList.toggle('hidden');
+
+    darklayer.innerHTML = `
+    <div class="mini-container container_pikachu">
+    <img src="./img/pikachu.png">
+    <input onclick="cerrar()" class="boton" type="button" value="X">
+    </div>`;
+});
+
 function cerrar(){
     darklayer.classList.toggle('hidden');
 }
